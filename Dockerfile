@@ -12,7 +12,7 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
   
-RUN npm install -g npm@8.12.2
+RUN npm install -g npm@8.16.0
 
 RUN npm install -g nodemon 
 
